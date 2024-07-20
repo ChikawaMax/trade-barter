@@ -15,7 +15,7 @@ import { Trades } from '@/models/trades';
 import { HeaderObj } from '@/models/HeaderObj';
 
 export const TradeTable = () => {
-  const [sortColumn, setSortColumn] = useState<string | number>('goods');
+  const [sortColumn, setSortColumn] = useState<string | number>('praice');
   const [sortDirection, setSortDirection] = useState<'asc' | 'desc'>('asc');
   const [selectedTrades, setSelectedTrades] = useState<string[]>([]);
 
