@@ -96,7 +96,7 @@ export const TradeTable = () => {
                 onClick={() => handleSort(Header.column)}
               >
                 {Header.children}
-                {sortColumn === 'praice' && (
+                {sortColumn === Header.column && (
                   <span className="ml-2">
                     {sortDirection === 'asc' ? '\u25B2' : '\u25BC'}
                   </span>
