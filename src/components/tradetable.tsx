@@ -98,7 +98,7 @@ export const TradeTable = () => {
                 {Header.children}
                 {sortColumn === Header.column && (
                   <span className="ml-2">
-                    {sortDirection === 'asc' ? '\u25B2' : '\u25BC'}
+                    {sortDirection === 'asc' ? '▲' : '▼'}
                   </span>
                 )}
               </TableHead>
